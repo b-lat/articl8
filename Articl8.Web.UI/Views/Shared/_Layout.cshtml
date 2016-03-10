@@ -1,0 +1,40 @@
+﻿@using Microsoft.AspNet.Mvc.Rendering
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Articl8</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/lib/bootswatch/journal/bootstrap.min.css" media="screen"/>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-header">
+                        <div class="navbar-brand logo">
+                            <i class="glyphicon glyphicon-pencil"></i>
+                            <a href="#">Articl8</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="page-header">
+            <h2>@ViewBag.Title</h2>
+        </div>
+        @RenderBody()
+    </div>
+    
+    <script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    @RenderSection("Scripts", false)
+</body>
+</html>

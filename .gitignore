@@ -4,3 +4,5 @@
 
 *.suo
 *.user
+Articl8.Web.UI/node_modules/
+/Articl8.Web.UI/wwwroot/lib/font-awesome/HELP-US-OUT.txt
